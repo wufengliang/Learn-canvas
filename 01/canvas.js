@@ -10,6 +10,9 @@ window.onload = () => {
     }, 1000);
 };
 
+/**
+ * @description 实时画表
+ */
 const drawTime = (ctx, width) => {
     ctx.clearRect(0, 0, width, width);
     const date = new Date(), hour = date.getHours(), minute = date.getMinutes(), second = date.getSeconds();
